@@ -27,6 +27,7 @@
 .navRight {
   display: flex;
   align-items: center;
+
 }
 
 .navRight > * {
@@ -36,6 +37,8 @@
   transition: color 0.3s ease-in-out;
   cursor: pointer;
   gap: 20px;
+  text-decoration: none;
+
 }
 
 .navRight > *:hover {
