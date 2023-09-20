@@ -1,0 +1,28 @@
+.sidebarHeader{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.sidebarLogo{
+    width: 74px;
+    height: 67px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.sidebarTitle{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+.sidebarMenu{
+    color: #fff;
+    width:14rem;
+    height: 10rem;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.sidebarMenuItem{
+    display: flex;
+    flex-direction: column;
+}
