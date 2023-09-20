@@ -3,7 +3,7 @@ import Header from "./components/header/Header";
 import Sidebar from "./components/sidebar/Sidebar";
 import Context from "./components/context/Context";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import About from "./pages/about";
+import Card from "./pages/card/Card";
 
 function App() {
   const router = createBrowserRouter([
@@ -12,8 +12,8 @@ function App() {
       element: <Context />,
     },
     {
-      path: "/about",
-      element: <About />,
+      path: "/dersler",
+      element: <Card />,
     },
   ]);
 
