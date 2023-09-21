@@ -1,0 +1,20 @@
+.inclusive{
+    height: 200vh;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO-rcvDUWTpNNa8wGfL0S6v8Q1CVs5u5t94A&usqp=CAU) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+    
+    .container-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        padding: 10px;
+    }
+    
+    .container-card > div {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }

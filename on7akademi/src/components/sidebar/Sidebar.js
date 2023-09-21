@@ -16,20 +16,17 @@ const Sidebar = () => {
       </div>
       <div className="sidebar-menu">
         <a href="/">
-        <AiOutlineHome className="sidebar-icon"/> 
-          <h3>  Ana Sayfa</h3>
+          <AiOutlineHome className="sidebar-icon" />
+          <h3> Ana Sayfa</h3>
         </a>
         <div className="sidebar-menu-item">
           <a href="/context">
-          <PiBooks className="sidebar-icon"/>
+            <PiBooks className="sidebar-icon" />
             <h4> Dersler</h4>
           </a>
-          <a href="/about">
-          <PiExamLight className="sidebar-icon"/>
-            <h4>
-
-              Sınavlar
-            </h4>
+          <a href="/card">
+            <PiExamLight className="sidebar-icon" />
+            <h4>Sınavlar</h4>
           </a>
         </div>
       </div>

@@ -1,5 +1,4 @@
 import "./card.css";
-
 const Card = ({ name, img, job, about, id }) => {
   return (
     <div className="card-container">
