@@ -6,14 +6,14 @@
     -o-background-size: cover;
     background-size: cover;}
     
-    .container-card {
+    .card-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
         padding: 10px;
     }
     
-    .container-card > div {
+    .card-container>div {
         text-align: center;
         padding: 20px 0;
         font-size: 30px;

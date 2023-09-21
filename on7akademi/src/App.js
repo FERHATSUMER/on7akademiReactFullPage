@@ -4,8 +4,7 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Sidebar from "./components/sidebar/Sidebar";
 import Context from "./components/context/Context";
-import Card from "./pages/card";
-
+import CardComponet from "./pages/cardcomponent/CardComponetn";
 function App() {
   return (
     <Router>
@@ -16,7 +15,7 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<Context />} />
-            <Route path="/card" element={<Card />} />
+            <Route path="/card" element={<CardComponet/>} />
           </Routes>
         </div>
         <div className="sidebar">
