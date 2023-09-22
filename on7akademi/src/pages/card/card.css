@@ -48,16 +48,17 @@
   }
   
   .intro {
-    position: absolute;
-    bottom: -27;
-    left: -28;
-    width: 100%;
     padding: 20px;
-    text-align: center;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    transition: all 0.3s ease-in-out;
-    opacity: 0;
+  background-color: rgba(203, 197, 197, 0.9);
+  transition: opacity 0.3s;
+  opacity: 0;
+  height: 88%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   }
   
   .card:hover .intro {
