@@ -9,16 +9,16 @@ function App() {
   return (
     <Router>
       <div className="app-container">
-        <div className="header">
+        <div className="app-header">
           <Header />
         </div>
-        <div className="content">
+        <div className="app-content">
           <Routes>
             <Route path="/" element={<Context />} />
             <Route path="/card" element={<CardComponet/>} />
           </Routes>
         </div>
-        <div className="sidebar">
+        <div className="app-sidebar">
           <Sidebar />
         </div>
       </div>

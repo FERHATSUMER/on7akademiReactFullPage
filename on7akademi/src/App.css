@@ -3,13 +3,13 @@
   padding: 0;
 }
 
-.header {
+.app-header {
   margin-top: -7px;
   height: 100px;
   width: 80rem;
   margin-left: 245px;
 }
-.sidebar {
+.app-sidebar {
   position: fixed;
   top: 0;
   left: 0;
@@ -18,7 +18,7 @@
   background: #001529;
   transition: all 0.5s ease;
 }
-.content{
+.app-content {
   height: 80vh;
   width: 76rem;
   background-color: #f0f2f5;
