@@ -4,33 +4,33 @@ import { AiOutlineProfile } from "react-icons/ai";
 import './context.css'
 const Context = () => {
   return (
-    <div className="container">
+    <div className="context-container">
     <h1 className="contenth1">On7 Akademi</h1>
-    <div className="contentInfoContainer">
-      <div className="contentInfo">
-        <h2 className="infoTitle">Staj Eğtimi</h2>
-        <div className="infoButtonsContainer">
-          <button className="infoButton">
+    <div className="content-info-container">
+      <div className="content-info">
+        <h2 className="info-title">Staj Eğtimi</h2>
+        <div className="info-buttons-container">
+          <button className="info-button">
             <AiOutlineProfile /> Dosyalar
           </button>
-          <button className="infoButton">
+          <button className="info-button">
             <MdLiveTv /> Derse Katıl
           </button>
-          <button className="infoButton">
+          <button className="info-button">
             <FcVideoCall /> Kayıtlı Dersler
           </button>
         </div>
       </div>
-      <div className="contentInfo">
-        <h2 className="infoTitle">Staj Eğtimi2 </h2>
-        <div className="infoButtonsContainer">
-          <button className="infoButton">
+      <div className="content-info">
+        <h2 className="info-title">Staj Eğtimi 2</h2>
+        <div className="info-buttons-container">
+          <button className="info-button">
             <AiOutlineProfile /> Dosyalar
           </button>
-          <button className="infoButton">
+          <button className="info-button">
             <MdLiveTv /> Derse Katıl
           </button>
-          <button className="infoButton"s>
+          <button className="info-button">
             <FcVideoCall /> Kayıtlı Dersler
           </button>
         </div>
