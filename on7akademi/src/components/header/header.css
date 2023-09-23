@@ -1,4 +1,4 @@
-.headerContainer {
+.header-container {
   background-color: #242323;
   display: flex;
   justify-content: space-between;
@@ -6,42 +6,42 @@
   padding: 0px 15px;
 }
 
-.headerRight {
+.header-right {
   display: flex;
   align-items: center;
 }
 
-.logo {
+.header-logo {
   border-radius: 50%;
   width: 60px;
   cursor: pointer;
 }
 
-.headerTitle {
+.header-title {
   color: #fff;
   margin-left: 10px;
   margin-top: 20px;
   padding: 10px;
 }
 
-.navRight {
+.header-nav-right {
   display: flex;
   align-items: center;
 
 }
 
-.navRight > * {
+.header-nav-right > * {
   display: flex;
   margin-left: 10px;
   color: #fff;
   transition: color 0.3s ease-in-out;
   cursor: pointer;
-  gap: 20px;
+  gap: 10px;
   text-decoration: none;
 
 }
 
-.navRight > *:hover {
+.header-nav-right > *:hover {
   font-size: 20px;
   transform: translateY(-3px);
   transition: all 0.2s ease-in-out;

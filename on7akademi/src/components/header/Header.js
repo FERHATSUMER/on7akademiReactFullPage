@@ -4,19 +4,19 @@ import { FiSettings } from "react-icons/fi";
 import { AiOutlineLogin } from "react-icons/ai";
 const Header = () => {
   return (
-    <div className="headerContainer">
-      <div className="headerRight">
+    <div className="header-container">
+      <div className="header-right">
         <a>
           <img
-            className="logo"
+            className="header-logo"
             src="https://media.licdn.com/dms/image/C560BAQG50mwENt9gSQ/company-logo_400_400/0/1632727910976?e=2147483647&v=beta&t=0w36fnGQ37PWTm253SLL0PVTr2ziC_mzcyO71DlLIDc"
             alt="logo"
           />
         </a>
-        <h1 className="headerTitle">Ferhat Sümer</h1>
+        <h1 className="header-title">Ferhat Sümer</h1>
       </div>
       <nav>
-        <div className="navRight">
+        <div className="header-nav-right">
           <FiSettings />
           <a href="https://www.instagram.com/" target="_blank">
             <h4>Ayarlar</h4>
