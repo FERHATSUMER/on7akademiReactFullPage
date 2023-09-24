@@ -5,6 +5,7 @@ import Header from "./components/header/Header";
 import Sidebar from "./components/sidebar/Sidebar";
 import Context from "./components/context/Context";
 import CardComponet from "./pages/cardcomponent/CardComponetn";
+import Exams from "./pages/exams";
 function App() {
   return (
     <Router>
@@ -16,6 +17,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Context />} />
             <Route path="/card" element={<CardComponet/>} />
+            <Route path="/exams" element={<Exams/>} />
+
           </Routes>
         </div>
         <div className="app-sidebar">

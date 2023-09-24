@@ -1,13 +1,4 @@
-.all {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .container {
-    width: 25%;
-    margin-bottom: 20px;
-  }
+
   
   
   .card-container {
@@ -15,15 +6,15 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
-    padding: 20px;
+    height: 300px;
+    padding: 2px;
     box-sizing: border-box;
   }
   
   .card {
     position: relative;
-    width: 400px;
-    height: 500px;
+    width: 300px;
+    height: 250px;
     margin-bottom: 20px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
@@ -48,7 +39,7 @@
   }
   
   .intro {
-    padding: 20px;
+  padding: 20px;
   background-color: rgba(203, 197, 197, 0.9);
   transition: opacity 0.3s;
   opacity: 0;
@@ -57,13 +48,11 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  
   }
   
   .card:hover .intro {
     opacity: 1;
-    transform: translateY(-20px);
   }
   
   h1 {
@@ -89,15 +78,7 @@
   }
   
   .intro h4 {
-    text-align: left;
-  }
+margin: -14px;
+
+}
   
-  @media (max-width: 768px) {
-    .card {
-      width: 250px;
-      height: 400px;
-    }
-    .photo {
-      height: 200px;
-    }
-  }

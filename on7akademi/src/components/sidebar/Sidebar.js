@@ -15,18 +15,18 @@ const Sidebar = () => {
         <h3 className="sidebar-title">Kullanıcı Paneli</h3>
       </div>
       <div className="sidebar-menu">
-        <a href="/">
+        <a href="/" className="sidebar-menü-text">
           <AiOutlineHome className="sidebar-icon" />
-          <h3> Ana Sayfa</h3>
+          <h3 className="sidebar-text"> Ana Sayfa</h3>
         </a>
         <div className="sidebar-menu-item">
-          <a href="/context">
-            <PiBooks className="sidebar-icon" />
-            <h4> Dersler</h4>
-          </a>
           <a href="/card">
+            <PiBooks className="sidebar-icon" />
+            <h4 className="sidebar-text"> Dersler</h4>
+          </a>
+          <a href="/exams">
             <PiExamLight className="sidebar-icon" />
-            <h4>Sınavlar</h4>
+            <h4 className="sidebar-text ">Sınavlar</h4>
           </a>
         </div>
       </div>

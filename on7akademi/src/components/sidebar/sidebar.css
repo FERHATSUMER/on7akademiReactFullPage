@@ -38,3 +38,7 @@
     transition: all 0.3s ease; 
   }
   
+.sidebar-text:hover{
+    color: black; 
+  
+  }

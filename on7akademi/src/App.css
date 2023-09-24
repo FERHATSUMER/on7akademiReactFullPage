@@ -19,9 +19,9 @@
   transition: all 0.5s ease;
 }
 .app-content {
-  height: 80vh;
+  height: 85vh;
   width: 76rem;
   background-color: #f0f2f5;
-  margin-top: 34px;
+  margin-top: 25px;
   margin-left: 290px;
 }
