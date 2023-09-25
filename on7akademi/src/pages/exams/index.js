@@ -21,7 +21,7 @@ const Exams = () => {
           </h4>
           <div className="examsButtonContainer">
             <button className="examsButton">Sınava Gir</button>
-            <button className="examsButton">Mazeret Bildir</button>
+            <button className="examsButtonSecond">Mazeret Bildir</button>
           </div>
         </div>
       </div>
@@ -42,7 +42,7 @@ const Exams = () => {
           </h4>
           <div className="examsButtonContainer">
             <button className="examsButton">Sınava Gir</button>
-            <button className="examsButton">Mazeret Bildir</button>
+            <button className="examsButtonSecond">Mazeret Bildir</button>
           </div>
         </div>
       </div>
@@ -63,7 +63,7 @@ const Exams = () => {
           </h4>
           <div className="examsButtonContainer">
             <button className="examsButton">Sınava Gir</button>
-            <button className="examsButton">Mazeret Bildir</button>
+            <button className="examsButtonSecond">Mazeret Bildir</button>
           </div>
         </div>
       </div>

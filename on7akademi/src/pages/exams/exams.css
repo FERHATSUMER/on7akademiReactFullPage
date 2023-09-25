@@ -57,10 +57,12 @@
   /* Düğme stilleri */
   .examsButtonContainer {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
   }
   
   .examsButton {
-    background-color: #007bff;
+    background-color: rgb(0, 184, 0);
     color: #fff;
     padding: 8px 16px;
     border: none;
@@ -69,9 +71,22 @@
     margin-right: 10px;
     font-size: 14px;
   }
+  .examsButtonSecond{
+    background-color: rgb(195, 29, 29);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #fff;
+  }
   
+  .examsButtonSecond:hover {
+    background-color: #391111;
+  }
   .examsButton:hover {
-    background-color: #0056b3;
+    background-color: #07340d;
   }
   
   /* Medya sorguları (responsive) */
