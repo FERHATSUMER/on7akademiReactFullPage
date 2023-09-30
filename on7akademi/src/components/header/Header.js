@@ -18,12 +18,12 @@ const Header = () => {
       <nav>
         <div className="header-nav-right">
           <FiSettings />
-          <a href="https://www.instagram.com/" target="_blank">
+          <a href="" target="_blank">
             <h4>Ayarlar</h4>
           </a>
           <AiOutlineLogin />
 
-          <a href="https://www.instagram.com/" target="_blank">
+          <a href="" target="_blank">
             <h4>Çıkış Yap</h4>
           </a>
         </div>

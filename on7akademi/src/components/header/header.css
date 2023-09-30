@@ -25,12 +25,14 @@
 }
 
 .header-nav-right {
+  border: 2px solid #fff; 
   display: flex;
   align-items: center;
 
 }
 
 .header-nav-right > * {
+  
   display: flex;
   margin-left: 10px;
   color: #fff;
