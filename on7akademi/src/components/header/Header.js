@@ -24,7 +24,7 @@ const Header = () => {
           <AiOutlineLogin />
 
           <a href="" target="_blank">
-            <h4>Çıkış Yap</h4>
+            <h4 >Çıkış Yap</h4>
           </a>
         </div>
       </nav>
